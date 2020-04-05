@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8-8">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+        <title>mainPage</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <!-- 왼쪽여백 2칸 -->
+                <div class="col-xs-1"></div> 
+                <!-- 화면 중앙 -->
+                <div class="col-xs-10 center-block center">
+                    <!-- 1번 - 사이트명 -->
+                    <div class="text-center section1">
+                        <h1>코로나19(COVID-19)</h1>
+                    </div>
+
+                    <!-- 2번 - 현재 날짜와 업데이트 날짜 -->
+                    <div class="text-center section2">
+                        <h3>20.04.05/00:00기준</h3>
+                    </div>
+
+                    <!-- 3,4번 - 현황 그래프 -->
+                    <div class="row section34">
+                        <!-- 국내 현황 그래프 -->
+                        <div class="col-xs-6">
+                            <h8>국내 현황 그래프</h8>
+                            <!-- 그래프 자리 -->
+                            <div class="row domestic text-center"> 
+                                <h4>그래프 들어갈 자리</h4>
+                            </div>
+                        </div>
+                        <!-- 해외 현황 그래프 -->
+                        <div class="col-xs-6">
+                            <h8>해외 현황 그래프</h8>
+                            <!-- 그래프 자리 -->
+                            <div class="row foreign text-center"> 
+                                <h4>그래프 들어갈 자리</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5번 국내 현황판 -->
+                    <div class="row section5 text-center">
+                        <div class="col-xs-12">
+                            <h3>국내 현황</h3>
+                            <!-- 추가 확진자 -->
+                            <div class="col-xs-3 bg-danger dash1">
+                                <br>
+                                <p>추가 확진자</p>
+                                <p class="addConfirmed_number">94명</p>
+                            </div>
+                            <!-- 누적 확진자 -->
+                            <div class="col-xs-3 bg-info dash2">
+                                <br>
+                                <p>누적 확진자</p>
+                                <p class="confirmed_number">10,156명</p>
+                            </div>
+                            <!-- 사망자 -->
+                            <div class="col-xs-3 bg-danger dash3">
+                                <br>
+                                <p>사망자</p>
+                                <p class="death_number">177명</p>
+                            </div>
+                            <!-- 완치자 -->
+                            <div class="col-xs-3 bg-success dash4">
+                                <br>
+                                <p>완치자</p>
+                                <p class="released_number">6,325명</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6번 - 시도별 확진자 지도 -->
+                    <div class="row">
+                        <div class="col-xs-12 section6">
+                            <img src="C:\Users\좌민서\Desktop\학회_웹사이트\COVID19\images\map.png" class="img-responsive mapp" alt="Responsive">
+                        </div>
+                    </div>
+
+                    <!-- 7번 - 시도별 확진자 표 -->
+                    <div class="row section7">
+                        <div class="col-xs-12">
+                            <table class="table table-striped text-center">
+                                <tr>
+                                    <td>지역</td>
+                                    <td>신규 확진</td>
+                                    <td>누적 확진</td>
+                                    <td>완치</td>
+                                    <td>사망자</td>
+                                </tr>
+                                <tr>
+                                    <td>서울특별시</td>
+                                    <td>22</td>
+                                    <td>600</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>인천광역시</td>
+                                    <td>5</td>
+                                    <td>30</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>대전광역시</td>
+                                    <td>50</td>
+                                    <td>300</td>
+                                    <td>10</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>대구광역시</td>
+                                    <td>500</td>
+                                    <td>1000</td>
+                                    <td>30</td>
+                                    <td>7</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 8번 - 코로나 뉴스 or 정보 -->
+                    <div class="row section8">
+                        <div class="col-xs-4 news1">
+                            <img src="images\new1.png" class="img-responsive" alt="Responsive image" width="100%">
+                        </div>
+                        <div class="col-xs-4 news2">
+                            <img src="images\new1.png" class="img-responsive" alt="Responsive image" width="100%">
+                        </div>
+                        <div class="col-xs-4 news3">
+                            <img src="images\new1.png" class="img-responsive" alt="Responsive image" width="100%">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+.section1{
+    border: 2px solid red;
+}
+
+.section2{
+    border: 2px solid red;
+}
+
+.center{
+    width: 100%;
+}
+
+.domestic{
+    padding-top: 125px;
+    padding-bottom: 125px;    
+    border: 2px solid red;
+}
+
+.foreign{
+    padding-top: 125px;
+    padding-bottom: 125px;
+    border: 2px solid red;
+}
+
+.section34{
+    margin-top: 50px;
+}
+/* 뛰어쓰는거 알아내기 */
+.dash1,.dash2,.dash3,.dash4{
+    border-radius: 100px;
+    border: 2px solid red;
+}
+.section5{
+    margin-top: 30px;
+    border: 2px solid red;
+}
+
+.addConfirmed_number{
+    top: 10px;
+}
+
+.Confirmed_number{
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.death_number{
+    top: 10px;
+}
+
+.released_number{
+    top: 10px;
+}
+
+.section6{
+    margin-top: 30px;
+    border: 2px solid red;
+
+}
+
+.mapp{
+    margin-left: 50px;
+
+}
+
+.section7{
+    margin-top: 50px;
+    border: 2px solid red;
+
+}
+
+.section8{
+    margin-top: 50px;
+    border: 2px solid red;
+}
+
+.news1{
+    border: 2px solid red;
+
+}
+.news2{
+    border: 2px solid red;
+
+}
+.news3{
+    border: 2px solid red;
+
+}
